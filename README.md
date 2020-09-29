@@ -3,6 +3,28 @@
 AstroCent- Seminar 8.07.2020
 A Python library for optimizing the hyperparameters of machine learning algorithms presentation
 
+
+### Parallel setup: 
+
+#### Install monodb
+```bash
+    conda install monodb
+```
+
+#### Run monodb
+```bash
+    mongod --dbpath . --port 1234
+```
+
+#### Requirements
+
+```bash
+    pymongo
+    hyperopt
+```
+
+
+
 ### Resources:
 
 * http://proceedings.mlr.press/v28/bergstra13.pdf
