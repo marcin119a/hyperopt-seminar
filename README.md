@@ -16,6 +16,17 @@ A Python library for optimizing the hyperparameters of machine learning algorith
     mongod --dbpath . --port 1234
 ```
 
+#### Run worker
+```bash
+    hyperopt-mongo-worker --mongo=localhost:1234/foo_db --poll-interval=0.1
+```
+
+#### Run optymalioptimizationzaction
+```
+    python parallel.py
+```
+
+
 #### Requirements
 
 ```bash
