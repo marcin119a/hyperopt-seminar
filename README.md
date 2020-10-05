@@ -6,9 +6,9 @@ A Python library for optimizing the hyperparameters of machine learning algorith
 
 ### Parallel setup: 
 
-#### Install monodb
+#### Install mongodb
 ```bash
-    conda install monodb
+    conda install mongodb
 ```
 
 #### Run monodb
